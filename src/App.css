@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
+  align-items: center;
 }
 .body {
   margin: 10px;
   font-family: 'Poppins','sans-serif';
   padding: 100;
+  align-items: center;
 }
 .navbar {
   display: flex;
@@ -13,6 +15,8 @@
   padding: 20px 36 px;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
   width: 17cm;
+  margin-left: 9.5cm;
+  
 }
 .navbar--photo{
   height: 35px;
@@ -43,9 +47,6 @@ left: 37px;
 top: 521px;
 z-index: 0;
 
-}
-.mamudo{
-  position: relative;
 }
 .zindexle{
   position: absolute;
@@ -125,11 +126,14 @@ color: #918E9B;
   line-height: 110%;
   color: #222222;
   margin-left: 10px;
-  margin-top: ;
   
 }
-.general{
+/* .general{
   display: flex;
-  grid-template-row: 100px 100px 100px;  
-  
+  margin-left: 10cm;
+} */
+.cards-section{
+  display: flex;
+  margin-left: 390px;
+
 }
